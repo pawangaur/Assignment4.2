@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAUA,mBAAK;EACJ,gBAAgB,ECXL,GAAG;EDMZ,aAAa,ECHH,mBAAmB;EDU/B,KAAK,ECPM,KAAK;EDQhB,OAAO,EAAC,IAAI;;AAGb,YAAK;EACJ,gBAAgB,ECjBL,IAAI;EDKb,aAAa,ECFH,SAAU;;ADoBvB,KAAK;EACJ,gBAAgB,ECvBL,MAAM;EDIf,aAAa,ECDH,cAAc",
+"sources": ["main.scss","myvar.scss"],
+"names": [],
+"file": "mycss.css"
+}

@@ -1,0 +1,30 @@
+@import 'myvar.scss';
+
+
+
+ @mixin border-radius($radius)
+ {
+   border-radius:$radius;
+ }
+
+
+.box1{
+	background-color:$box1-color;
+	@include border-radius($box1-radius);
+	color:$text-color;
+	padding:40px;
+}
+
+.box2{
+	background-color:$box2-color;
+	@include border-radius($box2-radius);
+	@extend .box1;
+
+}
+
+.box3{
+	background-color:$box3-color;
+	@include border-radius($box3-radius);
+	@extend .box2;
+}
+
